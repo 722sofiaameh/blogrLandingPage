@@ -1150,6 +1150,11 @@ video {
     background-color: hsl(356 100% 66% / var(--tw-bg-opacity));
   }
 
+  .md\:bg-primary-white-text {
+    --tw-bg-opacity: 1;
+    background-color: hsl(0 0% 100% / var(--tw-bg-opacity));
+  }
+
   .md\:p-2 {
     padding: 0.5rem;
   }
