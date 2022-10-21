@@ -15,7 +15,7 @@
     ></script>
     <link rel="stylesheet" href="../dist/output.css" />
   </head>
-  <body class="">
+  <body class="mx-auto">
     <div
       class="bg-primary-red-nav md:rounded-bl-large text-primary-white-text md:text-primary-white-text "
     >
@@ -56,8 +56,7 @@
                 >
                 <img src="../images/icon-arrow-light.svg" class="w-2 h-2 " />
               </li>
-              
-                  </ul>
+            
               <ul class="md:flex md:justify-self-end md:mx-28 md:items-center">
                 <li
                   class="mx-4 my-6 md:my-0 flex justify-center items-center gap-x-1 "
@@ -66,9 +65,10 @@
                   <a href="#" class="text-xl hover:text-red-200 duration-500"
                     >Login</a
                   >
+                  <img src="../images/icon-arrow-light.svg" class="w-2 h-2" />
                 </li>
                 <button
-                  class=" md:rounded-full md:bg-primary-white-text rounded-full text-primary-white bg-primary-red-nav md:px-4 md:text-primary-red-nav md:p-2 text-white md:bg-white duration-500 px-6 py-2 mx-4 hover:bg-hover md:hover:text-primary-white-text"
+                  class=" md:rounded-full md:bg-primary-white-text text-primary-white-text rounded-full text-primary-white bg-primary-red-nav md:px-4 md:text-primary-red-nav md:p-2 text-white md:bg-white duration-500 px-6 py-2 mx-4 hover:bg-hover md:hover:text-primary-white-text"
                 >
                   Sign Up
                 </button>
@@ -199,8 +199,8 @@
             <li><a href="#" class="hover:underline">Overview</a></li>
             <li><a href="#" class="hover:underline">Pricing</a></li>
             <li><a href="#" class="hover:underline">Market Place</a></li>
-            <li><a href="#" class="hover:underline">Features</a></li>
-            <li><a href="#" class="hover:underline">Integration</a></li>
+            <li><a href="#"  class="hover:underline">Features</a></li>
+            <li><a href="#"  class="hover:underline">Integration</a></li>
           </ul>
         </div>
         <div>
@@ -243,7 +243,7 @@
         let list = document.querySelector("ul");
         e.name === "menu"
           ? ((e.name = "close"),
-            list.classList.add("top-[100px]"),
+            list.classList.add("top-[120px]"),
             list.classList.add("left-[3px]"),
             list.classList.add("opacity-100"))
           : ((e.name = "menu"),
